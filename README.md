@@ -1,7 +1,7 @@
 # Lista de Compras – Laboratorio 2  
 **Proyecto:** Skill de Alexa + Web API .NET (Arquitectura Limpia)  
 **Autor:** Delmarck Klein Jackson  
-**Universidad Libre de Costa Rica**  
+**Universidad Internacional de Las Americas**  
 **Curso:** Programación IV  
 **Profesor:** Santiago Astorga  
 **Fecha:** Octubre 2025  
@@ -46,7 +46,7 @@ db/ → Script SQL o migraciones EF Core
 
 1. **Clonar o descargar el repositorio**
    ```bash
-   git clone https://github.com/<tu-usuario>/ListaDeCompras-Lab2.git
+   git clone https://github.com/klein0102/ListaDeCompras-Lab2.git
    cd ListaDeCompras-Lab2
 
 
