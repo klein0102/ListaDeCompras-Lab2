@@ -1,0 +1,81 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "lista compras",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ObtenerListasIntent",
+                    "slots": [],
+                    "samples": [
+                        "listar mis listas",
+                        "cuáles listas tengo",
+                        "muéstrame mis listas"
+                    ]
+                },
+                {
+                    "name": "CrearListaIntent",
+                    "slots": [
+                        {
+                            "name": "nombre",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "añade la lista {nombre}",
+                        "agrega una lista {nombre}",
+                        "nueva lista {nombre}",
+                        "crea una lista {nombre}",
+                        "crea lista {nombre}"
+                    ]
+                },
+                {
+                    "name": "EliminarListaIntent",
+                    "slots": [
+                        {
+                            "name": "nombre",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "quita la lista {nombre}",
+                        "quiero eliminar la lista {nombre}",
+                        "borrar lista {nombre}",
+                        "elimina la lista {nombre}"
+                    ]
+                },
+                {
+                    "name": "ObtenerListaPorNombreIntent",
+                    "slots": [
+                        {
+                            "name": "nombre",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "abre la lista {nombre}",
+                        "que hay en la lista {nombre}",
+                        "lee la lista {nombre}",
+                        "muestrame la lista {nombre}"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
